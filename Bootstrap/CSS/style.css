@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.wood-brown-bg {
+    background-color:#f8f9fa;
+}
+
+
+.error{
+    color: red;
+   
+}
+.invalid-input {
+    border: 1px solid red; /* Add your desired styling for invalid input */
+  }
+
+  .update-btn {
+    display: none;
+}
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
